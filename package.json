@@ -1,0 +1,14 @@
+{
+  "name": "project_teashop",
+  "version": "1.0.0",
+  "description": "Teashop website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Tuan Doan",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
