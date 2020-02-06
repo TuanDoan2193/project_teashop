@@ -1,0 +1,25 @@
+nav {
+  padding: 0 100px;
+  .navbar-brand {
+    background: url(../images/bokacha_logo.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+  }
+  ul {
+    text-align: center;
+    li {
+      a {
+        color: $primary-color !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        @include easeOut;
+
+        &:hover {
+          color: $secondary-color !important;
+        }
+      }
+    }
+  }
+}

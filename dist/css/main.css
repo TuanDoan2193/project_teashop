@@ -1,2 +1,103 @@
+nav {
+  padding: 0 100px; }
+  nav .navbar-brand {
+    background: url(../images/bokacha_logo.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 100px; }
+  nav ul {
+    text-align: center; }
+    nav ul li a {
+      color: #0d5b45 !important;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.3s ease-out; }
+      nav ul li a:hover {
+        color: #b1946e !important; }
+
+.main-banner {
+  position: relative;
+  width: 100%;
+  height: 600px; }
+  .main-banner.hover-left .left {
+    width: 75%; }
+  .main-banner.hover-left .right {
+    width: 25%; }
+  .main-banner.hover-left .right:before {
+    z-index: 2; }
+  .main-banner.hover-right .right {
+    width: 75%; }
+  .main-banner.hover-right .left {
+    width: 25%; }
+  .main-banner.hover-right .left:before {
+    z-index: 2; }
+  .main-banner .split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden; }
+    .main-banner .split.left {
+      left: 0;
+      background: url(../images/banner_black.jpg);
+      background-size: cover; }
+    .main-banner .split.left:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%; }
+    .main-banner .split.right {
+      right: 0;
+      background: url(../images/banner_white.jpg);
+      background-size: cover; }
+    .main-banner .split.right:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%; }
+    .main-banner .split.left, .main-banner .split.right, .main-banner .split.left:before, .main-banner .split.right:before {
+      transition: 1s all ease-in-out; }
+
+.menu-wrapper {
+  background: #b1946e;
+  height: auto;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 2rem; }
+
+.menu-item-wrapper {
+  color: #000; }
+  @media (min-width: 992px) {
+    .menu-item-wrapper.vertical-separator {
+      border-right: 2px solid #0d5b45; } }
+
+html {
+  background: linear-gradient(rgba(13, 91, 69, 0.3), rgba(13, 91, 69, 0.1)) no-repeat; }
+
 body {
-  background: #444; }
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.2rem; }
+
+.separator {
+  height: 3px;
+  background: #0d5b45;
+  width: 100%; }
+
+.primary-color {
+  color: #0d5b45; }
+
+.primary-wrapper {
+  background-color: #0d5b45;
+  padding: 2rem;
+  text-align: center; }
+
+.padding-wrapper {
+  padding: 2rem; }
+
+.main-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase; }

@@ -1,5 +1,43 @@
-$primary-color: #444;
+@import "config";
+@import "header";
+@import "banner";
+@import "menu";
+
+html {
+  background: linear-gradient(rgba(13, 91, 69, 0.3), rgba(13, 91, 69, 0.1))
+    no-repeat;
+}
 
 body {
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: set-text-color($primary-color);
+  font-size: 1.2rem;
+}
+
+.separator {
+  height: 3px;
   background: $primary-color;
+  width: 100%;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.primary-wrapper {
+  background-color: $primary-color;
+  padding: 2rem;
+  text-align: center;
+}
+
+.padding-wrapper {
+  padding: 2rem;
+}
+
+.main-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }

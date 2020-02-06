@@ -1,0 +1,17 @@
+.menu-wrapper {
+  background: $secondary-color;
+  height: auto;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.menu-item-wrapper {
+  color: #000;
+
+  @include lg {
+    &.vertical-separator {
+      border-right: 2px solid $primary-color;
+    }
+  }
+}
