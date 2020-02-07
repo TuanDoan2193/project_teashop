@@ -67,12 +67,41 @@ nav {
 
 .menu-item-wrapper {
   color: #000; }
+  .menu-item-wrapper.menu-inline-item div {
+    display: inline;
+    margin-right: 1.5rem; }
   @media (min-width: 992px) {
     .menu-item-wrapper.vertical-separator {
       border-right: 2px solid #0d5b45; } }
 
+.image-lift {
+  margin: 3rem 0 3rem 0;
+  color: #000; }
+  .image-lift .single-image-wrapper {
+    padding: 0 1.5rem; }
+    .image-lift .single-image-wrapper .single-image {
+      margin: 1rem 0;
+      padding-top: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .image-lift .single-image-wrapper .single-image:nth-child(1) {
+        background-image: url("../images/product_teashop.PNG"); }
+      .image-lift .single-image-wrapper .single-image:nth-child(2) {
+        background-image: url("../images/product_teashop.PNG"); }
+      .image-lift .single-image-wrapper .single-image:nth-child(3) {
+        background-image: url("../images/product_teashop.PNG"); }
+
+.social-media-lift {
+  background: #deefec;
+  height: 300px;
+  padding: 2rem; }
+  .social-media-lift .main-text {
+    color: #000;
+    text-align: center; }
+
 html {
-  background: linear-gradient(rgba(13, 91, 69, 0.3), rgba(13, 91, 69, 0.1)) no-repeat; }
+  background: linear-gradient(rgba(177, 148, 110, 0.5), rgba(177, 148, 110, 0.1)) no-repeat; }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -95,7 +124,7 @@ body {
   text-align: center; }
 
 .padding-wrapper {
-  padding: 2rem; }
+  padding: 4rem; }
 
 .main-text {
   font-size: 2rem;

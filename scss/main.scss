@@ -2,9 +2,13 @@
 @import "header";
 @import "banner";
 @import "menu";
+@import "media";
 
 html {
-  background: linear-gradient(rgba(13, 91, 69, 0.3), rgba(13, 91, 69, 0.1))
+  background: linear-gradient(
+      rgba(177, 148, 110, 0.5),
+      rgba(177, 148, 110, 0.1)
+    )
     no-repeat;
 }
 
@@ -33,7 +37,7 @@ body {
 }
 
 .padding-wrapper {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .main-text {

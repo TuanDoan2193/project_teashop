@@ -9,9 +9,41 @@
 .menu-item-wrapper {
   color: #000;
 
+  &.menu-inline-item {
+    div {
+      display: inline;
+      margin-right: 1.5rem;
+    }
+  }
+
   @include lg {
     &.vertical-separator {
       border-right: 2px solid $primary-color;
+    }
+  }
+}
+
+.image-lift {
+  margin: 3rem 0 3rem 0;
+  color: #000;
+  .single-image-wrapper {
+    padding: 0 1.5rem;
+    .single-image {
+      margin: 1rem 0;
+      padding-top: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &:nth-child(1) {
+        background-image: url("../images/product_teashop.PNG");
+      }
+      &:nth-child(2) {
+        background-image: url("../images/product_teashop.PNG");
+      }
+      &:nth-child(3) {
+        background-image: url("../images/product_teashop.PNG");
+      }
     }
   }
 }
